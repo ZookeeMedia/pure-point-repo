@@ -1,18 +1,15 @@
 {
-  "name": "skeleton-scss",
-  "version": "2.0.4",
-  "description": "The (un)official Sass Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
+  "name": "pure point test",
+  "version": "1",
+  "description": "PP test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WhatsNewSaes/Skeleton-Sass"
+    "url": "https://github.com/ZookeeMedia/pure-point-repo"
   },
-  "bugs": {
-    "url": "https://github.com/WhatsNewSaes/Skeleton-Sass/issues"
-  },
-  "homepage": "https://github.com/whatsnewsaes/Skeleton-Sass",
-  "author": "Seth Coelen <scoelen89@gmail.com>  (http://sethcoelen.com/)",
+
+  "homepage": "https://github.com/ZookeeMedia/pure-point-repo",
+  "author": "Conway Hyacienth",
   "keywords": [
-    "skeleton",
     "sass",
     "scss",
     "responsive",
