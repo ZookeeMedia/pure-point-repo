@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Bariol;
+    src: url("Bariol_Regular.otf") format("opentype");
+}
+
+h4.zm {
+	font-family: Bariol;
+}

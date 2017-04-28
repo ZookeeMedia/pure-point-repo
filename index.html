@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Pure Point Test</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link href='fonts/fonts.css' rel='stylesheet' type='text/css'>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <style type="text/css" media="screen">
+    </style>
+  </head>
+  <body>
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+    <div id="videocontainer">
+      <video autoplay id="zmVideo" class="zm-video" style=" " src=""></video>
+      
+      <button id="loadvideo">Load Video</button>
+
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+      <script>
+      $('#loadvideo').click(function() {
+          console.log('load video');
+          loadvideo('#zmVideo');
+      });
+
+      function loadvideo(vid) {
+        $(vid).attr('src','https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761');
+      }
+      </script>
+      <!-- End Document
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    </body>
+  </html>
